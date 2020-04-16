@@ -1,0 +1,147 @@
+﻿@charset "euc-kr";
+* { padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; }
+
+ul { font-style:normal; list-style-position:inside; line-height:36px; padding-left:0px; margin:0px; text-indent:10px; border-bottom:1px solid white;  }
+li { font-style:normal; line-height:26px; margin:0px; padding:0px;  }
+
+body { font-size:12px; font-family:Verdana; }
+a { text-decoration:none; color:black; }
+checkbox, select { margin-right:10px; }
+.checkbox { height:13px; }
+input { height:16px; font-size:12px;  }
+textarea { width:500px; font-size:12px; }
+table { padding-top:10px; padding-bottom:10px; }
+img { border:0px; vertical-align:middle; padding-bottom:1px; padding-right:10px; }
+
+
+#wrap { width:1220px; margin:0px auto; }
+
+/*로그인정보 섹션*/
+/*2011-06-29이전 값
+#top { clear:both; width:1200px; height:50px; padding-top:30px; }
+#top img  { vertical-align:middle; text-align:center; }
+#top #login { float:right; line-height:20px; font-weight:bold; letter-spacing:2px; text-align:right; padding-right:20px; padding-top:10px; }
+*/
+.loginF { padding-left:80px; }
+
+#top { width:1220px; height:30px; }
+#top #loginInfo { float:left; }
+.top_loginInfo {width:1220px; background-color:#f0f0f0; }
+.top_loginInfo_comp_name {text-align:left; width:210px; font-size:18px; letter-spacing:2px; font-weight:bold; padding-left:10px;}
+.top_loginInfo_hello {text-align:left; width:596px; }
+.top_loginInfo_user_name { font-weight:bold; }
+.top_loginInfo_logout {text-align:right; padding-right:60px; }
+
+
+
+#left { float:left; width:216px; padding:0px; margin:0px; background:#D7D5E3; }
+#right { float:right; width:1000px;}
+#bottom { clear:both; width:1200px; /*height:200px;*/ text-align:center; vertical-align:bottom; }
+
+/*left */
+/*.LeftMenu { float:left; width:216px; padding-top:0px; padding-bottom:0px; background:#D7D5E3; }*/
+.MenuName { padding-top:0px; background:#D7D5E3; }
+.ProgName { font-weight:normal; background:#ECE9F0; }
+
+/*로그인 페이지*/
+.loginTop { height:200px; }
+.loginSection { float:right; }
+.loginTitle { font-size:x-large; font-weight:bold; height:40px; line-height:30px; }
+.loginBottom {}
+
+#right #mobileLeft { width:100%;  line-height:20px; display:none;  }
+
+#right #navi { clear:both; font-size:larger; font-weight:bold; height:30px; line-height:30px; text-align:left; padding-left:4px; margin-top:10px; }
+#right #search { clear:both; line-height:40px; padding-left:4px; }
+.comp_search_f { margin:0px; width:60px; }
+.comp_search_f1 { margin-left:0px; width:180px;  }
+#right #search .mom004 { width:100px; }
+#right #titleN {clear:both; font-size:large; font-weight:bold; height:40px; line-height:30px; text-align:left; padding:40px 0px 10px 0px;}
+
+#right #result { clear:both; padding-bottom:10px; padding-left:4px; padding-right:0px; height:800px; overflow:auto}
+
+.comp_tel_span, .comp_fax_span { display:none; }
+.man1_tel_span, .man1_mobile_span, .man1_fax_span { display:none; }
+.man2_tel_span, .man2_mobile_span, .man2_fax_span { display:none; }
+.man3_tel_span, .man3_mobile_span, .man3_fax_span { display:none; }
+
+/*조건 검색 부분*/
+.Sform { width:1000px; border:1px solid white; }
+/*colgroup 사이즈 조정*/
+.SformTitle { width:100px; }
+.SformSch { width:300px; }
+.Sform tr { line-height:30px; }
+.SformName { text-align:right;  padding-right:20px;  background:#D7D5E3; }
+.SformIp { padding-left:4px; background:#ECE9F0; }
+.ui-datepicker-trigger { padding:0px; margin-right:4px; margin-left:4px; }
+#sDate, #eDate { width:80px; }
+#fsrchWrd { width:180px; }
+
+
+/**/
+table { border-style : solid 1px; font-size:12px; }
+.row1 { text-align : center; line-height : 30px; background-color:#AAB9BF; }
+.row3 { line-height : 20px; background-color:#e2e2e2; }
+.row2 { line-height : 20px; background:#F2F2F2; }
+.r_align { text-align : right; padding : 2px; padding-right :8px; }
+.l_align { text-align : left; padding : 2px; padding-left : 8px; }
+.c_align { text-align : center; height:20px; }
+
+.b_r_align { clear:both; float:right; padding-right:10px; }
+.reg_b_r_align { clear:both; float:right; padding-right:700px; padding-top:10px; padding-bottom:10px; }
+.button { font-size:12px; width:80px; }
+
+
+#right #comp_inst_form table { }
+.inst_T tr { height:30px; }
+.r_align_B { text-align : right; padding-right:300px; }
+.S_B { width:50px; }
+.red { font-size:11px; color:Red; }
+
+
+#page { clear:both; letter-spacing:4px; text-align:center; padding:10px 0px 10px 0px; }
+#page #pageBolder { font-weight:bolder; }
+.paging { padding-left:10px; padding-right:10px; }
+
+#popup { padding-top:20px; padding-bottom:20px; }
+#popup table { width:600px; }
+#popup #navi { clear:both; font-weight:bold; padding:10px 20px 10px 20px; }
+#popup #search { clear:both; padding:10px 20px 20px 20px;}
+#popup table { clear:both; padding:0px 20px 10px 20px;}
+
+#DS2Table table { clear:both; padding:0px 20px 10px 20px; }
+#DS2Table_menu { width:400px;} 
+#DS2Table_menuprog { width:500px; }
+
+#result_menu { float:left; }
+#result_menuprog { overflow:scroll }
+.CMN003_r_align_B { clear:both; text-align:right; padding-right:120px; }
+.popup_bt { padding-left:520px; }
+/*
+prog_reg.aspx
+*/
+.prog_reg tr { height:30px; }
+#reset_btn { height:20px; }
+
+/*tooltip*/
+#D1 { line-height:24px; width: 400px; padding:12px 12px; border:2px solid white;  background-color:#AAB9BF; }
+
+/*MTM100_pop1*/
+.atag { text-decoration:underline; }
+
+/*MTS*/
+#sendMSG { padding-left:10px; }
+
+.test { width:20%; }
+
+/*RSS*/
+#titleDiv { text-align : left; padding:6px 0px 6px 0px; }
+.desc { text-align : left; padding : 2px; padding-left : 8px; }
+.RSS_name { font-weight:bold; }
+.title { font-size: 12px; line-height:18px; font-weight:bold; vertical-align:top; }
+.date { float:right; font-weight:normal; }
+.read { background-color:#D7D5E3; }
+.more { float:right; font-weight:bold; }
+#more10 { float:right; }
+.more10 { letter-spacing:2px; padding:10px 0px 10px 0px; }
+.fontColor { color:Blue; font-weight:bold; }

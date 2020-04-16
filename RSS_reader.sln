@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libRSSreader", "libRSSreader\libRSSreader.csproj", "{6C89B873-CC10-4FED-9B47-DB5EB50DEAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webRSSreader", "webRSSreader\webRSSreader.csproj", "{26727538-FFCD-41A3-8515-CD69CC06C628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C89B873-CC10-4FED-9B47-DB5EB50DEAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C89B873-CC10-4FED-9B47-DB5EB50DEAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C89B873-CC10-4FED-9B47-DB5EB50DEAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C89B873-CC10-4FED-9B47-DB5EB50DEAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26727538-FFCD-41A3-8515-CD69CC06C628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26727538-FFCD-41A3-8515-CD69CC06C628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26727538-FFCD-41A3-8515-CD69CC06C628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26727538-FFCD-41A3-8515-CD69CC06C628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5087073D-23A0-4B0D-89CC-ECB956859341}
+	EndGlobalSection
+EndGlobal
